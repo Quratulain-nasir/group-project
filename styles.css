@@ -119,6 +119,17 @@ header .fa-bars {
     background-size: cover;
     background-position: center;
     animation-name: flower;
+    animation: spin 1s linear 1;
+
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(30%);
+  }
+  100% {
+    transform: scale(100%);
+  }
 
 }
 
@@ -243,6 +254,7 @@ header .fa-bars {
     border-radius: .5rem;
     border: .1rem solid rgba(0, 0, 0, .1);
     position: relative;
+    
 }
 
 .products .box-container .box .discount {
